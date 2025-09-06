@@ -10,5 +10,10 @@ module decoder_tb;
     .one_hot(one_hot)
   );
 
-  // Complete your testbench here
+   initial begin
+    for (int i = 0; i < 16; i++) begin
+      binary = i;
+    end
+  end
+  
 endmodule

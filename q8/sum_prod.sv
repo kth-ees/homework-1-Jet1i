@@ -3,6 +3,6 @@ module sum_prod #(parameter N) (
   output logic [2N+2:0] result
 );
 
-// complete the module
+assign result = X[0]*X[1] + X[2]*X[3] + X[4]*X[5];
 
 endmodule
